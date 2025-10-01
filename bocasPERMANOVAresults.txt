@@ -1,0 +1,11 @@
+Permutation test for adonis under reduced model
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = innerouterdist_matrix ~ BayType * Time.Point, data = bocasdata, permutations = 999)
+          Df SumOfSqs      R2      F Pr(>F)    
+Model     13   47.046 0.22848 21.618  0.001 ***
+Residual 949  158.863 0.77152                  
+Total    962  205.908 1.00000                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
